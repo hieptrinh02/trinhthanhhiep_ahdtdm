@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+#calculator {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 300px;
+}
+
+#calculator td, #calculator button {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+#calculator button {
+    background-color: #f4f4f4;
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+}
+
+#calculator button:hover {
+    background-color: #ddd;
+}
+
+#display {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    background-color: #fff;
+    text-align: right;
+}
